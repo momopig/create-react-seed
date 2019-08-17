@@ -7,10 +7,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bin": {
-    "haizhi-cli": "bin/build.js",
-    "hello": "index.js"
-  },
   "dependencies": {
     "chalk": "^2.4.2",
     "child_process": "^1.0.2",
