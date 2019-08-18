@@ -31,6 +31,8 @@ if (nameOfNewProject) {
       return
     }
     spinner.succeed('初始项目完成').stop()
+    const removeOriginCommand = `cd  ${nameOfNewProject}&&rm -rf .git`
+    exec(removeOriginCommand)
   })
 } else {
   if (program.help) {
